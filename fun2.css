@@ -1,0 +1,19 @@
+img {
+    margin: 50px;
+    animation-name: infinite-rotation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes infinite-rotation {
+    from {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
